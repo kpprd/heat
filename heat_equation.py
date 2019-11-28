@@ -2,8 +2,8 @@ import matplotlib.pyplot
 from numpy import ndarray
 from copy import deepcopy, copy
 import sys
-#import matplotlib.image
-#import matplotlib.cm as cm
+
+# Oystein Kapperud, 2015
 
 def heat(t0, t1, dt, nu, timer=False, dim=None, verbose=False, start_u=None, f=None):
     """
