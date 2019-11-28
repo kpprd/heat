@@ -4,6 +4,8 @@ from numpy import *
 import matplotlib.pyplot
 import py.test
 
+# Oystein Kapperud, 2015
+
 def make_u_f(n,m, nu):
     """
     Initialize the f and analytic_u arrays to be used in the test.
