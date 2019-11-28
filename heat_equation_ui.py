@@ -8,6 +8,8 @@ import cPickle as pickle
 import sys
 import os.path
 
+# Oystein Kapperud, 2015
+
 """
 Run python heat_equation_ui.py -h from the command line to see a list of possible input variables. 
 """
