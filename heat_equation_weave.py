@@ -3,6 +3,8 @@ from scipy import weave
 import matplotlib.pyplot
 import sys
 
+# Oystein Kapperud, 2015
+
 def heat_weave(t0, t1, dt, nu, timer=False, dim=None, verbose=False, start_u=None, f=None):
     """
     A function that simulates the dissipation of heat using weave.
