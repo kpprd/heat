@@ -2,6 +2,8 @@ import matplotlib.pyplot
 from numpy import *
 import sys
 
+# Oystein Kapperud, 2015
+
 def heat_numpy(t0, t1, dt, nu, timer=False, dim=None, verbose=False, start_u=None, f=None):
     """
     A function that simulates the dissipation of heat using numpy arrays.
